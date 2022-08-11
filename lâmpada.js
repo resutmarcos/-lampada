@@ -1,6 +1,7 @@
 const turnOn = document.getElementById ( 'turnOn' );
 const turnOff = document.getElementById ( 'turnOff' );
 const lamp = document.getElementById ( 'lamp' );
+alert (" nao clique na lampada");
 
 function islampBroken (){
     return lamp.src.indexOf ('quebrada') > -1;
